@@ -261,7 +261,7 @@ struct ReadElement {
             if constexpr (IsSame<T, unsigned>)
                 return ReadElementConcrete<T, unsigned long, kind> {}(input_lexer, ap, suppress_assignment);
             if constexpr (IsSame<T, float>)
-                return ReadElementConcrete<int, double, kind> {}(input_lexer, ap, suppress_assignment);
+                return ReadElementConcrete<float, double, kind> {}(input_lexer, ap, suppress_assignment);
             return false;
         case LengthModifier::LongLong:
             if constexpr (IsSame<T, int>)
