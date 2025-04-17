@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: matyalatte <matyalatte@gmail.com>
+Date: Fri, 18 Apr 2025 00:18:42 +0000
+Subject: [PATCH] Stub out a definition of RTLD_NOLOAD
+
+---
+ src/dispatch_common.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/dispatch_common.c b/src/dispatch_common.c
+index 0095b4f..694329a 100644
+--- a/src/dispatch_common.c
++++ b/src/dispatch_common.c
+@@ -172,6 +172,8 @@
+ 
+ #include "dispatch_common.h"
+ 
++#define RTLD_NOLOAD 0
++
+ #if defined(__APPLE__)
+ #define GLX_LIB "/opt/X11/lib/libGL.1.dylib"
+ #define OPENGL_LIB "/System/Library/Frameworks/OpenGL.framework/Versions/Current/OpenGL"
