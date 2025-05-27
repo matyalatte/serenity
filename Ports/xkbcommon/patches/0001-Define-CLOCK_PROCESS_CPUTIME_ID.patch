@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: matyalatte <matyalatte@gmail.com>
+Date: Sun, 27 Apr 2025 00:16:21 +0000
+Subject: [PATCH] Define CLOCK_PROCESS_CPUTIME_ID
+
+---
+ bench/bench.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/bench/bench.c b/bench/bench.c
+index c8e3f5f7..ef4655e9 100644
+--- a/bench/bench.c
++++ b/bench/bench.c
+@@ -67,6 +67,8 @@ bench_stop(struct bench *bench)
+ }
+ 
+ #ifndef _WIN32
++#define CLOCK_PROCESS_CPUTIME_ID CLOCK_REALTIME
++
+ void
+ bench_start2(struct bench *bench)
+ {
