@@ -13,6 +13,7 @@ This list is also available at [ports.serenityos.net](https://ports.serenityos.n
 | [`angband`](angband/)                         | Angband                                                       | 4.2.5                    | https://rephial.org                                                  |
 | [`Another-World`](Another-World/)             | Another World Bytecode Interpreter                            |                          | https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter |
 | [`aria2`](aria2/)                             | aria2                                                         | 1.37.0                   | https://aria2.github.io                                              |
+| [`atk`](atk/)                                 | The Accessibility Toolkit                                     | 2.38.0                   | https://gitlab.gnome.org/Archive/atk                                 |
 | [`awk`](awk/)                                 | The One True Awk                                              | 20240728                 | https://github.com/onetrueawk/awk                                    |
 | [`backward-cpp`](backward-cpp/)               | Backward-cpp                                                  | 65a769f                  | https://github.com/bombela/backward-cpp                              |
 | [`bash`](bash/)                               | GNU Bash                                                      | 5.2.37                   | https://www.gnu.org/software/bash/                                   |
